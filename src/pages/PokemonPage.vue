@@ -79,7 +79,6 @@ onMounted(() => {
 
 // methods
 const dummySuccess = (response) => {
-  console.log('dummySuccess: ', response)
   pokemonReactive.pokemons = response
   pokemonReactive.totalPokemons = response.length
   setTimeout(() => {

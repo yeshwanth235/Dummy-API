@@ -4,24 +4,25 @@ import MoviesPage from '@/pages/MoviesPage.vue'
 import PokemonPage from '@/pages/PokemonPage.vue'
 import ProductPage from '@/pages/ProductPage.vue'
 
+const BASE_PATH = '/dummy-api'
 let routes = [
   {
-    path: '',
+    path: '/dummy-api',
     name: 'home',
     component: Homepage
   },  
   {
-    path: '/movies',
+    path: '/dummy-api/movies',
     name: 'movies',
     component: MoviesPage
   },
   {
-    path: '/pokemon',
+    path: '/dummy-api/pokemon',
     name: 'pokemon',
     component: PokemonPage
   },
   {
-    path: '/product',
+    path: '/dummy-api/product',
     name: 'product',
     component: ProductPage
   }

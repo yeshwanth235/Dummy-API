@@ -113,10 +113,5 @@ const pageChange = () => {
     display: flex;
     place-items: center;
   }
-
-  // ::v-deep .v-pagination > li:first-child,
-  // .v-pagination > li:last-child {
-  //   display: none;
-  // }
 }
 </style>

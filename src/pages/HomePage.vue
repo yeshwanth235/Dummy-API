@@ -58,15 +58,14 @@ onMounted(() => {
 })
 
 const onClick = (value) => {
-  console.log(value)
   if(value===0) {
-    router.push('/product')
+    router.push('/dummy-api/product')
   }
   if(value===1) {
-    router.push('/pokemon')
+    router.push('/dummy-api/pokemon')
   }
   if(value==2) {
-    router.push('/movie')
+    router.push('/dummy-api/movie')
   }
 }
 
