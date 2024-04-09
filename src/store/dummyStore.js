@@ -1,6 +1,5 @@
 import { defineStore } from 'pinia'
 import apiService from '@/api/api-service.js'
-import axios from 'axios'
 
 export const useDummyStore = defineStore('dummy',{
   state: () => ({

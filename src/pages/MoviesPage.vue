@@ -35,7 +35,7 @@
 <script setup>
 //imports
 import { reactive, ref, onMounted } from 'vue';
-import { useDummyStore } from '../store/dummyStore'
+import { useDummyStore } from '@/store/dummyStore'
 import NavigationDrawer from '@/components/NavigationDrawer.vue';
 import Loader from '@/components/Loader.vue';
 

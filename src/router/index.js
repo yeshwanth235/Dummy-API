@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Homepage from '@/pages/HomePage.vue'
-import UserPage from '@/pages/UserPage.vue'
 import MoviesPage from '@/pages/MoviesPage.vue'
 import PokemonPage from '@/pages/PokemonPage.vue'
 import ProductPage from '@/pages/ProductPage.vue'
@@ -11,11 +10,6 @@ let routes = [
     name: 'home',
     component: Homepage
   },  
-  {
-    path: '/user',
-    name: 'user',
-    component: UserPage
-  },
   {
     path: '/movies',
     name: 'movies',
