@@ -1,2 +1,2 @@
 # Dummy-API
-A Vue3 Application
+This project was developed using a combination of technologies to deliver a user-friendly experience. The backend utilized a Dummy API to simulate real-world data interactions, while the frontend was built with Vue.js 3 for a performant and flexible framework. Pinia served as the state management solution, ensuring data consistency across the application. Finally, Vuetify provided a comprehensive library of UI components to deliver a visually appealing and interactive interface.
