@@ -15,4 +15,11 @@ export default defineConfig({
     ],
     extensions: ['.vue', '.js']
   },
+  build: {
+    rollupOptions: {
+      external: [
+        "@mdi/js", // ignore react stuff
+      ],
+    },
+  },
 })
