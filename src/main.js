@@ -11,6 +11,7 @@ const pinia = createPinia()
 import { createVuetify } from 'vuetify'
 import * as allComponents from 'vuetify/components'
 import * as directives from 'vuetify/directives'
+import { aliases, mdi } from 'vuetify/iconsets/mdi-svg'
 import { VEmptyState } from 'vuetify/labs/VEmptyState'
 
 const vuetify = createVuetify({
@@ -19,7 +20,14 @@ const vuetify = createVuetify({
   components: {
     ...allComponents,
     VEmptyState
-  }
+  },
+  icons: {
+    defaultSet: 'mdi',
+    aliases,
+    sets: {
+      mdi,
+    },
+  },
 })
 
 // create app

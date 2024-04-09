@@ -70,7 +70,6 @@ onMounted(() => {
 
 // methods
 const dummySuccess = (response) => {
-  console.log('dummySuccess: ', response)
   productReactive.products = response
   productReactive.totalProducts = response.length
   setTimeout(() => {

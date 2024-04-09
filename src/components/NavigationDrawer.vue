@@ -26,7 +26,7 @@ const props = defineProps(['color'])
 
 
 const onClick = (value) => {
-  router.push(`/${value}`)
+  router.push(`/dummy-api/${value}`)
 }
 
 </script>
